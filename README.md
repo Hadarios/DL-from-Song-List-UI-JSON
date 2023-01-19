@@ -1,5 +1,5 @@
 # DL-from-Song-List-UI-JSON
-A program to download all the songs from Song List UI by TheJoseph98 JSON file as mp3 files with title and artist ID3 tags.  
+A program to download all the songs from [Song List UI script](https://github.com/TheJoseph98/AMQ-Scripts/raw/master/amqSongListUI.user.js) for [AMQ](https://animemusicquiz.com) by [TheJoseph98](https://github.com/TheJoseph98) JSON file as mp3 files with title and artist ID3 tags.  
 Python depedencies: requests, BeautifulSoup, eyed3
 The .exe should work standalone. If you have any problem or question, feel free to contact me.
 
