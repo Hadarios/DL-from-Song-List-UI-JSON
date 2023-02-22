@@ -11,6 +11,6 @@ The .exe should work standalone. If you have any problem or question, feel free 
 - Voilà
 
 ## IMPORTANT
-If there are songs that are only uploaded as video in your file, the script will download them and convert them to mp3.
-For this, it uses ffmpeg, so you will need to install it to make that work.
-[Here's a tutorial for its installation on Windows (wikihow).](https://www.wikihow.com/Install-FFmpeg-on-Windows)
+If there are songs that are only uploaded as video in your file, the script will download them and convert them to mp3.  
+For this, it uses ffmpeg, so you will need to install it to make that work.  
+[Here's a tutorial for its installation on Windows (wikihow).](https://www.wikihow.com/Install-FFmpeg-on-Windows)  
