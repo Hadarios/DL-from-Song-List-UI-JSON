@@ -36,7 +36,7 @@ progress = 0
 for L in source:
     mp3 = True
     try:
-        url = L['urls']['catbox']['0']
+        url = "https://ladist1.catbox.video/" + L['urls']['catbox']['0']
     except:
         mp3 = False
 
@@ -66,14 +66,15 @@ for L in source:
             if name[i] not in ["/", "\\", "*", "|", ":", "?", "\"", "<", ">"]:
                 namefile += name[i]
         namefile = dir + "\\" + namefile + ".mp3"
+        print("namefile = " + namefile)
         open(namefile, "wb").write(response.content)
         print("Written")
 
     else:
         try:
-            url = L['urls']['catbox']['720']
+            url = "https://ladist1.catbox.video/" + L['urls']['catbox']['720']
         except:
-            url = L['urls']['catbox']['480']
+            url = "https://ladist1.catbox.video/" + L['urls']['catbox']['480']
 
 
         print("Downloading " + L['name'] + " from catbox.moe")
